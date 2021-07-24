@@ -60,7 +60,7 @@ header .navigation .navigation-right {
       -ms-grid-row-align: center;
       align-self: center;
   padding-right: 8px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 header .navigation a {
@@ -229,6 +229,7 @@ header .sidenav-container .search-container .search-btn {
   font-size: 1.08rem;
   background-color: #fff;
   color: #909494;
+  cursor: pointer;
 }
 
 @media (min-width: 769px) {
@@ -239,6 +240,7 @@ header .sidenav-container .search-container .search-btn {
     display: none;
   }
   header .navigation .desktop {
+    text-transform: uppercase;
     display: inline;
     padding-bottom: 24px;
   }

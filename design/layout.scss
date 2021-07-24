@@ -47,7 +47,7 @@ header {
         .navigation-right {
             align-self: center;
             padding-right: 8px;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
         a {
@@ -211,6 +211,7 @@ header {
                 font-size: 1.08rem;
                 background-color: #fff;
                 color: #909494;
+                cursor: pointer;
             }
         }
     }
@@ -226,6 +227,7 @@ header {
             }
 
             .desktop {
+                text-transform: uppercase;
                 display: inline;
                 padding-bottom: 24px;
             }
