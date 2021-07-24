@@ -20,6 +20,7 @@ header {
     .navigation {
         display: flex;
         height: 60px;
+        z-index: 999;
         justify-content: space-between;
         background-color: transparent; //Have navigation-left placed left, navigation-right on the right.
 
@@ -50,7 +51,7 @@ header {
         }
 
         a {
-            color: #909494e0;
+            color: #494949;
             text-decoration: none;
             padding: 6px;
         }
@@ -77,16 +78,14 @@ header {
         }
 
         a:hover {
-            color: #494949;
+            color: #909494;
             transition: 0.2s ease-in-out;
         }
     }
 
     // burger menu
     .sidenav-container {
-        // margin-top: -75px;
-        height: 100%;
-        width: 100%;
+        // width: 100%;
 
         .sidenav {
             height: 100%;
@@ -208,10 +207,10 @@ header {
                 margin-left: -4px;
                 width: 19%;
                 height: 39px;
-                font-size: 1.08rem;
-                color: #909494;
-                background-color: #fff;
                 border: none;
+                font-size: 1.08rem;
+                background-color: #fff;
+                color: #909494;
             }
         }
     }

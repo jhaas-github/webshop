@@ -23,6 +23,7 @@ header .navigation {
   display: -ms-flexbox;
   display: flex;
   height: 60px;
+  z-index: 999;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -63,7 +64,7 @@ header .navigation .navigation-right {
 }
 
 header .navigation a {
-  color: #909494e0;
+  color: #494949;
   text-decoration: none;
   padding: 6px;
 }
@@ -91,14 +92,9 @@ header .navigation:hover #discord:hover {
 }
 
 header .navigation:hover a:hover {
-  color: #494949;
+  color: #909494;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-}
-
-header .sidenav-container {
-  height: 100%;
-  width: 100%;
 }
 
 header .sidenav-container .sidenav {
@@ -229,10 +225,10 @@ header .sidenav-container .search-container .search-btn {
   margin-left: -4px;
   width: 19%;
   height: 39px;
-  font-size: 1.08rem;
-  color: #909494;
-  background-color: #fff;
   border: none;
+  font-size: 1.08rem;
+  background-color: #fff;
+  color: #909494;
 }
 
 @media (min-width: 769px) {
