@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background-image: url(/img/symbiote3.jpg);
+  background-position: 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 75px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: transparent;
+}
+
+header .navigation .navigation-left {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 8px;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navigation .navigation-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-size: 1.8rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header .navigation .navigation-right {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-right: 8px;
+  font-size: 1.5rem;
+}
+
+header .navigation a {
+  color: #3f3e3e;
+  text-decoration: none;
+  padding: 5px;
+}
+
+header .navigation .mobile {
+  font-size: 1.7rem;
+}
+
+header .navigation .desktop {
+  display: none;
+}
+
+header .navigation:hover {
+  background-color: #fff;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+header .navigation:hover a {
+  color: #3f3e3e;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header .navigation:hover a:hover {
+  color: #eaaec2;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 769px) {
+  header .navigation .mobile {
+    display: none;
+  }
+  header .navigation .desktop {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=layout.css.map */
