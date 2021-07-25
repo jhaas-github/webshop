@@ -12,8 +12,8 @@ body {
 
 header {
   height: 100vh;
-  background-image: url(/img/symbiote3.jpg);
-  background-position: 65%;
+  background-image: url(/img/minimal7.jpeg);
+  background-position: 32%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ header .navigation .navigation-left {
       align-self: center;
   padding-left: 8px;
   font-size: 1.1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'ubuntu', sans-serif;
 }
 
 header .navigation .navigation-center {
@@ -48,7 +48,7 @@ header .navigation .navigation-center {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   font-size: 1.8rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 header .navigation .navigation-center a {
@@ -64,8 +64,9 @@ header .navigation .navigation-right {
 }
 
 header .navigation a {
-  color: #494949;
+  color: #6b6b6b;
   text-decoration: none;
+  font-weight: 600;
   padding: 6px;
 }
 
@@ -83,16 +84,16 @@ header .navigation:hover {
   transition: 0.4s ease-in-out;
 }
 
-header .navigation:hover #reddit:hover {
+header .navigation:hover #reddit {
   color: #ff6a32;
 }
 
-header .navigation:hover #discord:hover {
+header .navigation:hover #discord {
   color: #5865f2;
 }
 
 header .navigation:hover a:hover {
-  color: #909494;
+  opacity: 0.6;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -116,7 +117,8 @@ header .sidenav-container .sidenav {
 header .sidenav-container a {
   display: block;
   padding: 8px 8px 8px 32px;
-  color: #909494;
+  color: #6b6b6b;
+  opacity: 0.6;
   font-size: 1.03rem;
   text-decoration: none;
   -webkit-transition: 0.3s;
@@ -124,7 +126,7 @@ header .sidenav-container a {
 }
 
 header .sidenav-container a:hover {
-  color: #494949;
+  opacity: 1;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
@@ -152,16 +154,17 @@ header .sidenav-container .accordion {
   cursor: pointer;
   text-align: left;
   font-size: 1.03rem;
-  color: #909494;
+  color: #6b6b6b;
   background-color: #fff;
+  opacity: 0.6;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 header .sidenav-container .active,
 header .sidenav-container .accordion:hover {
-  color: #494949;
-  background-color: rgba(153, 152, 152, 0.144);
+  opacity: 1;
+  background-color: #99989825;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
@@ -228,19 +231,19 @@ header .sidenav-container .search-container .search-btn {
   border: none;
   font-size: 1.08rem;
   background-color: #fff;
-  color: #909494;
+  color: #6b6b6b;
+  opacity: 0.6;
   cursor: pointer;
 }
 
 @media (min-width: 769px) {
   header .navigation {
-    height: 75px;
+    height: 80px;
   }
   header .navigation .mobile {
     display: none;
   }
   header .navigation .desktop {
-    text-transform: uppercase;
     display: inline;
     padding-bottom: 24px;
   }
