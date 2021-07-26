@@ -13,7 +13,7 @@ body {
 header {
     height: 100vh;
     background-image: url(/img/minimal7.jpeg);
-    background-position: 32%;
+    background-position: 36%;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -49,7 +49,7 @@ header {
             .dropdown-menu-content {
                 display: none;
                 position: fixed;
-                height: 190px;
+                height: 200px;
                 width: 100vw; // Full width but comes with a small placement error.
                 margin-left: -8px; // Removes small placement error.
                 padding: 15px 0 0 13px;
@@ -60,7 +60,7 @@ header {
             .dropdown-menu-content h3 {
                 display: block;
                 margin-top: 5px;
-                font-size: 1rem;
+                font-size: 1.05rem;
                 font-family: 'ubuntu', sans-serif;
                 color: #ee6635;
             }
@@ -79,6 +79,7 @@ header {
 
             .dropdown-menu:hover .menu-btn {
                 color: #ee6635;
+                transition: 0.2s ease-in-out;
             }
         }
 
@@ -315,7 +316,6 @@ header {
             transform: rotate(45deg) translate(5px, 5px);
         }
     }
-
     // End scroll down animation
 }
 
