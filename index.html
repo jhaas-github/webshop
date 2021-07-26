@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,68 @@
     <link rel="stylesheet" href="design/layout.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="navigation">
             <div class="navigation-left">
-                <a href="#" class="desktop">Keyboards</a>
-                <a href="#" class="desktop">Keycaps</a>
-                <a href="#" class="desktop">Switches</a>
+                <div class="desktop">
+                    <div class="dropdown-menu">
+                        <button class="menu-btn">Keyboards</button>
+                        <div class="dropdown-menu-content">
+                            <h3>Keyboard group-buys</h3>
+                            <a href="#">Live</a>
+                            <a href="#">Upcoming</a>
+                            <a href="#">Ended</a>
+                            <a href="#">Interest Check</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="desktop">
+                    <div class="dropdown-menu">
+                        <button class="menu-btn">Keycaps</button>
+                        <div class="dropdown-menu-content">
+                            <h3>Keycap group-buys</h3>
+                            <a href="#">Live</a>
+                            <a href="#">Upcoming</a>
+                            <a href="#">Ended</a>
+                            <a href="#">Interest Check</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="desktop">
+                    <div class="dropdown-menu">
+                        <button class="menu-btn">Switches</button>
+                        <div class="dropdown-menu-content">
+                            <h3>Switch group-buys</h3>
+                            <a href="#">Live</a>
+                            <a href="#">Upcoming</a>
+                            <a href="#">Ended</a>
+                            <a href="#">Interest Check</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="desktop">
+                    <div class="dropdown-menu">
+                        <button class="menu-btn">Info</button>
+                        <div class="dropdown-menu-content">
+                            <h3>Keycap group-buys</h3>
+                            <a href="#">How To</a>
+                            <a href="#">Vendors</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="desktop"><button class="menu-btn">Keycaps</button></a>
+                <a href="#" class="desktop"><button class="menu-btn">Switches</button></a>
+                <a href="#" class="desktop"><button class="menu-btn">Info</button></a> -->
                 <a href="#" class="mobile" onclick="openNav()"><i class="bi bi-list"></i></a>
             </div>
 
             <div class="navigation-center">
-                <a href="#"><img src="/img/logoooo.png" alt="logo"></a>
+                <a href="#"><img src="/img/testlogo.png" alt="logo"></a>
             </div>
 
             <div class="navigation-right">
@@ -68,6 +119,17 @@
                     </p>
                 </div>
 
+                <button class="accordion">Info</button>
+                <div class="panel">
+                    <p>
+                        <ul>
+                            <li><a href="#">Guides</i></a></li>
+                            <li><a href="#">Vendors</a></li>
+                        </ul>
+                    </p>
+                </div>
+
+
                 <div class="line"></div>
 
                 <div class="search-container">
@@ -85,10 +147,7 @@
             </div>
     </header>
 
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati itaque accusantium illo libero natus esse eligendi iure repudiandae tenetur dolor facere architecto officia mollitia, sed a nostrum magnam. Necessitatibus, minima.</p>
-    </section>
-
     <script src="javascript/script.js"></script>
 </body>
+
 </html>
